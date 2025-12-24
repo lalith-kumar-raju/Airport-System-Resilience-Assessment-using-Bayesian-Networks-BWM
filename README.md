@@ -22,17 +22,20 @@ This project assesses the resilience of Chinese airport systems across three cat
 ## Repository Structure
 
 ```
-├── model/
-│   ├── airport_resilience.xdsl    # GeNIe Bayesian Network model
+├── Model/
+│   ├── Bayesian_network.xdsl      # GeNIe Bayesian Network model
 │   ├── priors.csv                 # Prior probabilities by airport category
-│   └── cpt/                       # Conditional Probability Tables
-│       ├── A1_cpt.csv
-│       ├── B1_cpt.csv
-│       ├── B2_cpt.csv
-│       ├── B3_cpt.csv
-│       └── B4_cpt.csv
-└── data/
-    └── incidents/                 # Incident data by airport category
+│   ├── A1_cpt.csv                 # CPT for Overall Resilience
+│   ├── B1_cpt.csv                 # CPT for Preparation Ability
+│   ├── B2_cpt.csv                 # CPT for Resistance Ability
+│   ├── B3_cpt.csv                 # CPT for Recovery Ability
+│   └── B4_cpt.csv                 # CPT for Optimization Ability
+├── Data/                          # Incident data by airport category
+│   ├── incidents_category_I.csv
+│   ├── incidents_category_I_2nd.csv
+│   └── incidents_category_II.csv
+└── BWM/                           # Best-Worst Method expert judgments
+    ├── A1/, B1/, B2/, B3/, B4/    # AB & AW matrices per node
 ```
 
 ## Requirements
