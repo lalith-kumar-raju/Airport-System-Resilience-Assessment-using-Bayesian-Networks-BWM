@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network4" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="C1">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.98 0.02</probabilities>
+		</cpt>
+		<cpt id="C2">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.9320000000000001 0.068</probabilities>
+		</cpt>
+		<cpt id="C3">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.9409999999999999 0.059</probabilities>
+		</cpt>
+		<cpt id="C4">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.737 0.263</probabilities>
+		</cpt>
+		<cpt id="C6">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.875 0.125</probabilities>
+		</cpt>
+		<cpt id="C5">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.864 0.136</probabilities>
+		</cpt>
+		<cpt id="C7">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.923 0.077</probabilities>
+		</cpt>
+		<cpt id="C8">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.984 0.016</probabilities>
+		</cpt>
+		<cpt id="C9">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.957 0.043</probabilities>
+		</cpt>
+		<cpt id="C10">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.973 0.027</probabilities>
+		</cpt>
+		<cpt id="C11">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.952 0.048</probabilities>
+		</cpt>
+		<cpt id="C12">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.961 0.039</probabilities>
+		</cpt>
+		<cpt id="C13">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.982 0.018</probabilities>
+		</cpt>
+		<cpt id="C14">
+			<state id="T" />
+			<state id="F" />
+			<probabilities>0.9389999999999999 0.061</probabilities>
+		</cpt>
+		<cpt id="B1">
+			<state id="T" />
+			<state id="F" />
+			<parents>C1 C2 C3</parents>
+			<probabilities>0.894 0.106 0.919 0.081 0.858 0.142 0.9360000000000001 0.064 0.842 0.158 0.832 0.168 0.878 0.122 0.786 0.214</probabilities>
+		</cpt>
+		<cpt id="B2">
+			<state id="T" />
+			<state id="F" />
+			<parents>C4 C5 C6 C7</parents>
+			<probabilities>0.92 0.08 0.905 0.095 0.889 0.111 0.875 0.125 0.882 0.118 0.86 0.14 0.845 0.155 0.8 0.2 0.87 0.13 0.855 0.145 0.84 0.16 0.795 0.205 0.83 0.17 0.8 0.2 0.77 0.23 0.74 0.26</probabilities>
+		</cpt>
+		<cpt id="B3">
+			<state id="T" />
+			<state id="F" />
+			<parents>C8 C9 C10</parents>
+			<probabilities>0.9399999999999999 0.06 0.915 0.08500000000000001 0.9 0.1 0.88 0.12 0.89 0.11 0.86 0.14 0.835 0.165 0.76 0.24</probabilities>
+		</cpt>
+		<cpt id="B4">
+			<state id="T" />
+			<state id="F" />
+			<parents>C11 C12 C13 C14</parents>
+			<probabilities>0.93 0.07000000000000001 0.915 0.08500000000000001 0.9 0.1 0.88 0.12 0.895 0.105 0.875 0.125 0.86 0.14 0.82 0.18 0.88 0.12 0.86 0.14 0.845 0.155 0.8 0.2 0.82 0.18 0.79 0.21 0.76 0.24 0.72 0.28</probabilities>
+		</cpt>
+		<cpt id="A1">
+			<state id="T" />
+			<state id="F" />
+			<parents>B1 B2 B3 B4</parents>
+			<probabilities>0.95 0.05 0.915 0.08500000000000001 0.92 0.08 0.88 0.12 0.915 0.08500000000000001 0.88 0.12 0.87 0.13 0.82 0.18 0.9 0.1 0.86 0.14 0.845 0.155 0.8 0.2 0.83 0.17 0.78 0.22 0.74 0.26 0.12 0.88</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.5310.0 ACADEMIC" name="Network4">
+			<node id="C1">
+				<name>C1</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>93 423 147 456</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C2">
+				<name>C2</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>93 324 147 357</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C3">
+				<name>C3</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>93 224 147 257</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C4">
+				<name>C4</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>253 64 307 97</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C6">
+				<name>C6</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>653 64 707 97</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C5">
+				<name>C5</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>453 64 507 97</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C7">
+				<name>C7</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>853 64 907 97</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C8">
+				<name>C8</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1013 224 1067 257</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C9">
+				<name>C9</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1013 324 1067 357</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C10">
+				<name>C10</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1013 424 1067 457</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C11">
+				<name>C11</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>853 584 907 617</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C12">
+				<name>C12</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>653 584 707 617</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C13">
+				<name>C13</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>454 584 508 617</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="C14">
+				<name>C14</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>253 584 307 617</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="B1">
+				<name>B1</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>326 321 394 360</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="B2">
+				<name>B2</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>546 181 614 220</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="B3">
+				<name>B3</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>765 321 833 360</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="B4">
+				<name>B4</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>546 461 614 500</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+			<node id="A1">
+				<name>A1</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>546 319 614 358</position>
+				<barchart active="true" width="159" height="79" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
