@@ -22,12 +22,10 @@ This project assesses the resilience of Chinese airport systems across three cat
 │   ├── B2_cpt.csv                 # CPT for Resistance Ability
 │   ├── B3_cpt.csv                 # CPT for Recovery Ability
 │   └── B4_cpt.csv                 # CPT for Optimization Ability
-├── Data/                          # Incident data by airport category
-│   ├── incidents_category_I.csv
-│   ├── incidents_category_I_2nd.csv
-│   └── incidents_category_II.csv
-└── BWM/                           # Best-Worst Method expert judgments
-    ├── A1/, B1/, B2/, B3/, B4/    # AB & AW matrices per node
+└── Data/                          # Incident data by airport category
+    ├── incidents_category_I.csv
+    ├── incidents_category_I_2nd.csv
+    └── incidents_category_II.csv
 ```
 
 ## Requirements
@@ -42,10 +40,6 @@ This project assesses the resilience of Chinese airport systems across three cat
 4. **CPT Generation**: Best-Worst Method (BWM) optimization to derive conditional probability tables
 5. **Model Building**: Bayesian Network constructed in GeNIe with 19 nodes (14 root + 4 intermediate + 1 target)
 6. **Inference**: Probability propagation to compute overall resilience P(A1=T)
-
-## Current Status
-
-✅ Completed up to running BN inference in GeNIe and obtaining resilience probabilities.
 
 ## License
 
