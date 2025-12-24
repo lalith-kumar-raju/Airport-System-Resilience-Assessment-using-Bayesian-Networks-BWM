@@ -4,6 +4,7 @@ PR Scratch/list.txt
 
 # PDF files (may be copyrighted)
 *.pdf
+.gitignore
 
 # Raw expert judgment data (not essential for reproduction)
 PR Scratch/data/A1/
