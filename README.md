@@ -11,14 +11,6 @@ This project assesses the resilience of Chinese airport systems across three cat
 
 ![Bayesian Network Model](bayesian_network.png)
 
-## Results
-
-| Airport Category | Resilience Score | 95% CI |
-|------------------|------------------|--------|
-| Category I (Major hubs) | 85.3% | [83.1%, 87.5%] |
-| Category I-2nd (Regional) | 83.9% | [82.7%, 85.1%] |
-| Category II (Medium) | 79.3% | [78.9%, 81.6%] |
-
 ## Repository Structure
 
 ```
@@ -44,10 +36,16 @@ This project assesses the resilience of Chinese airport systems across three cat
 
 ## Methodology
 
-1. **Prior Probabilities**: Derived from incident frequency data
-2. **CPT Generation**: Best-Worst Method with 10 domain experts
-3. **Inference**: Bayesian Network propagation in GeNIe
-4. **Validation**: Bootstrap confidence intervals (1,000 iterations)
+1. **Data Collection**: Incident data gathered from Civil Aviation Safety Information Network (CSIN)
+2. **Prior Probabilities**: Computed from incident frequency for each risk factor (C1–C14)
+3. **Expert Elicitation**: 10 domain experts provided Best-Worst comparisons for CPT generation
+4. **CPT Generation**: Best-Worst Method (BWM) optimization to derive conditional probability tables
+5. **Model Building**: Bayesian Network constructed in GeNIe with 19 nodes (14 root + 4 intermediate + 1 target)
+6. **Inference**: Probability propagation to compute overall resilience P(A1=T)
+
+## Current Status
+
+✅ Completed up to running BN inference in GeNIe and obtaining resilience probabilities.
 
 ## License
 
