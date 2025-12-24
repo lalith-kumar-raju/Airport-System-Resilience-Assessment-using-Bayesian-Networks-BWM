@@ -4,14 +4,16 @@ PR Scratch/list.txt
 
 # PDF files (may be copyrighted)
 *.pdf
+
+# Git config
 .gitignore
 
 # Raw expert judgment data (not essential for reproduction)
-PR Scratch/data/A1/
-PR Scratch/data/B1/
-PR Scratch/data/B2/
-PR Scratch/data/B3/
-PR Scratch/data/B4/
+PR Scratch/A1/
+PR Scratch/B1/
+PR Scratch/B2/
+PR Scratch/B3/
+PR Scratch/B4/
 
 # Temporary/backup files
 *.tmp
